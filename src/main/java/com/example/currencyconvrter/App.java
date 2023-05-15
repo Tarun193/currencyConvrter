@@ -11,7 +11,7 @@ public class App extends Application {
     @Override
     public void start(Stage stage) throws IOException {
 //        Loading our FXML
-        FXMLLoader fxmlLoader = new FXMLLoader(App.class.getResource("hello-view.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(App.class.getResource("CurrencyConverter.fxml"));
 //        Adding that FXML to SCENE
         Scene scene = new Scene(fxmlLoader.load());
 //        Setting the title of application
